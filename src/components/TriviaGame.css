@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+    background: #cfabf1;
+    border-radius: 1.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgb(55 0 0 / 50%);
+  }
+  
+  .trivia-category {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  
+  .trivia-difficulty {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .trivia-question {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .trivia-answer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .trivia-input {
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    outline: none;
+  }
+  
+  .trivia-message {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .trivia-correct {
+    position: relative;
+    color: green;
+    top: 30px;
+  }
+  
+  .trivia-incorrect {
+    position: relative;
+    color: red;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+    top: 30px;
+  }
+  
+  .trivia-button {
+    position: relative;
+    background-color: #007bff;
+    border: none;
+    border-radius: 0.25rem;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 2rem;
+    top: 25px;
+    cursor: pointer;
+  }
+  
+  .trivia-button:hover {
+    background-color: #0069d9;
+  }
