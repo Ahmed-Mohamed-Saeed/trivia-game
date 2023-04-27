@@ -1,5 +1,5 @@
 # Trivia game
-This App created by vite
+- This App created by vite
 
  # Technologies used:
 - React
